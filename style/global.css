@@ -1,24 +1,17 @@
 @import url(../style/reset.css);
 
 /* variables */
-:root{
+:root {
     --background-color: #5B86E5;
 }
 
-
 /* the font-family of the design in figma doesn't exist in google fonts :) */
-@font-face{
+@font-face {
     font-family: 'Telegraf';
     src: url(../fonts/PPTelegraf-Regular.otf);
-
-    font-family: 'TelegrafUB';
-    src: url(../fonts/PPTelegraf-UltraBold.otf);
-
-    font-family: 'TelegraUL';
-    src: url(../fonts/PPTelegraf-UltraLight.otf);
 }
 
-*{
+* {
     font-family: 'Telegraf', sans-serif;
-    font-size:35px;
+    font-size: 35px;
 }
