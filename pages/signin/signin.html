@@ -5,7 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
-  <title>Sign - In</title>
+  <title>Sign-In</title>
+  <script>
+    function mostrarAlerta() {
+      alert("Login realizado com sucesso!");
+    }
+  </script>
 </head>
 
 <body>
@@ -23,7 +28,7 @@
       <div class="wrapper-input">
         <input type="text" placeholder="Email" />
         <input type="text" placeholder="Password" />
-        <button><a href="">Login</a></button>
+        <button onclick="mostrarAlerta()" ><a href="">Login</a></button>
         <p id="wrapper-signup">Don't have an account?<a id="signup" target="_blank" href="../signup/signup.html"> Signup
             Here</a></p>
       </div>
